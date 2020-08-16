@@ -2,7 +2,7 @@ import numpy as np
 import os
 import __main__
 
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 #from tick.hawkes import HawkesKernelPowerLaw, SimuHawkes, HawkesKernelTimeFunc
 #from tick.base import TimeFunction
 optimalParams = []
@@ -669,7 +669,7 @@ def sgdNeuralHawkes(nEpochs,lr,mu,t1):
         print(i,epochs,bestll,error,mu)   #iteration, -loglikelihood, bestloglik, currentpara, bestpara
             
             
-        #plotKernels()
+        plotKernels()
        
     return mu
     
