@@ -48,7 +48,7 @@ def Univariate():
     #    B[1]=beta0+(np.random.uniform(-0.1,0.1,nNeurons)).reshape(-1,1)
 
     univariate.inflectionPoints()
-    #univariate.plotKernels()
+    univariate.plotKernels()
            
 
 
